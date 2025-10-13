@@ -11,16 +11,16 @@ namespace TodoListMinimalApi.Models
         public int Id { get; set; }
 
         [Column("title")]
-        public string Title { get; set; } = null!;
+        public string Title { get; set; } 
 
         [Column("content")]
-        public string Content { get; set; } = null!;
+        public string Content { get; set; } 
 
         [Column("date")]
         public DateTime Date { get; set; }
 
         [Column("author")]
-        public string Author { get; set; } = null!;
+        public string Author { get; set; } 
     }
 }
 
